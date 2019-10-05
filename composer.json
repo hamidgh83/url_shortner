@@ -12,5 +12,10 @@
             "email": "h.ghorashi@gmail.com"
         }
     ],
+    "autoload" : {
+        "psr-4" : {
+            "Url\\" : "src/Service/"
+        }
+    },
     "minimum-stability": "stable"
 }
