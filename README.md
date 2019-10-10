@@ -22,9 +22,14 @@ A possible use case of this library is to use it as a url shortner. Just get the
     $encodedStr = $shotrner->encode($num);
     echo $encodedStr;
 
+    $decodedStr = $shotrner->decode($encodedStr);
+    echo "\n" . $encodedStr;
+
+
 Outputs: 
     
     gOcSm
+    98201564
 
 **Example 2)**
     
@@ -34,7 +39,11 @@ Outputs:
     $shotrner = new Shortner($alphabets);
     $encodedStr = $shotrner->encode($num);
     echo $encodedStr;
+
+    $decodedStr = $shotrner->decode($encodedStr);
+    echo "\n" . $encodedStr;
     
 Outputs:
     
     igxgpg
+    98201564
