@@ -1,6 +1,6 @@
 {
     "name": "hamidgh83/url_shortner",
-    "description": "URL shortener Base-62 encoder/decoder",
+    "description": "URL shortener Base-X encoder/decoder",
     "type": "library",
     "require": {
         "php": ">=7.0"
