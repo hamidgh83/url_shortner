@@ -44,8 +44,8 @@ class Shortner
         $encodedStr = "";
 
         while ($n) {
-            $encodedStr .= $this->alphabet[$n % $this->base];
-            $n           = floor($n / $this->base);
+            $encodedStr .= $this->alphabet[gmp_intval(gmp_div_r($n, $this->base))];
+            $n           = gmp_intval(gmp_div_q($n, $this->base));
         }
 
         return strrev($encodedStr);
@@ -65,7 +65,7 @@ class Shortner
         $str = str_split($shortUrl);
 
         for ($i = 0; $i < $len; $i++) {
-            $id = $id * $this->base + strpos($this->alphabet, $str[$i]);
+            $id = gmp_add(gmp_mul($id, $this->base), strpos($this->alphabet, $str[$i]));
         }
 
         return $id;
