@@ -3,7 +3,7 @@
     "description": "URL shortener Base-X encoder/decoder",
     "type": "library",
     "require": {
-        "php": ">=7.0"
+        "php": ">=5.6"
     },
     "license": "MIT",
     "authors": [
