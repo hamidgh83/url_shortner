@@ -1,3 +1,10 @@
+### Package info
+
+[![Latest Stable Version](https://poser.pugx.org/hamidgh83/url_shortner/v)](//packagist.org/packages/hamidgh83/url_shortner)
+[![Total Downloads](https://poser.pugx.org/hamidgh83/url_shortner/downloads)](//packagist.org/packages/hamidgh83/url_shortner)
+[![Dependents](https://poser.pugx.org/hamidgh83/url_shortner/dependents)](//packagist.org/packages/hamidgh83/url_shortner)
+[![License](https://poser.pugx.org/hamidgh83/url_shortner/license)](//packagist.org/packages/hamidgh83/url_shortner)
+
 # URL shortener Base-X encoder/decoder
 
 This is a general purpose library to encode/decode an integer number. Given a string of valid alphabets you can encode your number into a small string. 
