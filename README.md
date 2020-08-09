@@ -1,4 +1,4 @@
-### Package info
+### The package
 
 [![Latest Stable Version](https://poser.pugx.org/hamidgh83/url_shortner/v)](//packagist.org/packages/hamidgh83/url_shortner)
 [![Total Downloads](https://poser.pugx.org/hamidgh83/url_shortner/downloads)](//packagist.org/packages/hamidgh83/url_shortner)
